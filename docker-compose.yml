@@ -1,0 +1,58 @@
+version: '3.1'
+services:
+      php-apache:
+            build:
+                  context: ./
+                  dockerfile: .docker/php-apache/Dockerfile
+            container_name: php-apache
+            ports:
+                  - '8080:80'
+            links:
+                  - mysql
+                  - mailhog
+            volumes:
+                  - ./:/var/www/html:delegated
+                  - .docker/php-apache/logs/apache:/var/log/apache2:delegated
+                  - .docker/php-apache/logs/php:/usr/local/etc/php/log:delegated
+
+      mysql:
+            image: mysql:5.7
+            container_name: mysql
+            command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci --init-connect='SET NAMES utf8mb4;' --innodb-flush-log-at-trx-commit=0
+            volumes:
+                  - .database/create.sql:/docker-entrypoint-initdb.d/schema.sql:delegated
+                  - .docker/mysql/data:/var/lib/mysql:delegated
+            ports:
+                  - '8306:3306'
+            env_file: .docker/mysql/mysql.env
+
+      adminer:
+            container_name: adminer
+            image: adminer
+            restart: always
+            ports:
+                  - 8081:8080
+            links:
+                  - mysql
+            environment:
+                  ADMINER_DEFAULT_SERVER: mysql
+
+      mailhog:
+            container_name: mailhog
+            image: mailhog/mailhog
+            ports:
+                  - '8082:8025'
+
+      frontend:
+            build:
+                  context: ./
+                  dockerfile: .docker/frontend/Dockerfile
+            container_name: frontend
+            working_dir: /home/node/app
+            ports:
+                  - '3000:3000'
+            environment:
+                  - NODE_ENV=development
+            volumes:
+                  - ./:/home/node/app:delegated
+            command: sh -c "npm i && npm start"

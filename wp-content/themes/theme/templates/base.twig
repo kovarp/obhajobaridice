@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="cs">
+	<head>
+		<meta charset="{{ fn('bloginfo', 'charset') }}" />
+		<meta http-equiv="x-ua-compatible" content="ie=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+		{{ fn('wp_head') }}
+	</head>
+
+	<body {{ fn('body_class') }}>
+		{{ fn('wp_body_open') }}
+
+		<div id="uvod" class="overflow-hidden">
+			<div id="offcanvas-menu" class="hidden fixed top-0 left-0 z-50 w-full h-full bg-gray-900 text-white overflow-auto">
+				<header class="py-4 mb-4">
+					<div class="max-w-[90rem] container px-[.625rem] flex items-center xl:px-8">
+						<a href="{{ fn('get_home_url') }}" class="mr-auto">
+							<img src="{{ theme.link }}/assets/img/logo.svg" alt="Obhajoba řidiče" loading="lazy" width="244" height="54" class="w-[15.25rem] md:w-[3.375rem]" />
+						</a>
+						<button type="button" class="js-menu-toggle ml-4 px-2 leading-none lg:hidden" aria-label="Menu"><span class="icon-box">{{ svg_sprite('times') }}</span></button>
+					</div>
+				</header>
+				<nav class="items-center gap-8 flex flex-col">
+					<a href="/#domu" class="flex gap-3 items-center">Domů</a>
+					<a href="/#jak-to-funguje" class="flex gap-3 items-center">Jak to funguje</a>
+					<a href="/#kontakt" class="flex gap-3 items-center">Kontakt</a>
+					<a href="/#grafiky" class="flex gap-3 items-center">Stáhni si grafiky</a>
+				</nav>
+				<ul class="flex justify-center gap-4 mt-10 mx-6 leading-none">
+					<li><a href="https://www.facebook.com/obhajobaridice.cz" target="_blank"><span class="icon-box">{{ svg_sprite('facebook') }}</span></a></li>
+				</ul>
+			</div>
+
+			<header class="absolute top-0 left-0 w-full z-20 text-white overflow-hidden">
+				<div class="container py-6 flex items-center relative">
+					<span class="absolute top-0 left-[65rem] w-screen h-1 bg-blue-500"></span>
+					<a href="{{ fn('get_home_url') }}" class="mr-auto">
+						<img src="{{ theme.link }}/assets/img/logo.svg" alt="Lovci pokut" loading="lazy" width="240" height="48" class="w-[15rem]" />
+					</a>
+					<ul class="hidden gap-4 font-bold sm:flex mr-8">
+						<li>
+							<a href="tel:+420776554445" class="inline-flex items-center gap-6">
+								<span class="icon-box text-[1.875rem] text-blue-500">{{ svg_sprite('phone') }}</span>
+								<span><span class="block leading-none mb-1 text-blue-500 text-xs">VOLEJTE 8.00 - 20.00 HOD</span><b class="block text-2xl">776 554 445</b></span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="border-t border-b border-white border-opacity-10">
+					<div class="container flex items-center">
+						<button type="button" class="js-menu-toggle py-4 pr-4 leading-none mr-3" aria-label="Menu"><span class="icon-box">{{ svg_sprite('bars') }}</span></button>
+						<nav class="font-medium items-center gap-6 hidden text-gray-500 lg:flex xl:gap-10">
+							<a href="/#uvod" class="flex gap-3 items-center py-4 border-b-2 border-transparent hover:border-blue-500 hover:text-white">Úvod</a>
+							<a href="/#o-nas" class="flex gap-3 items-center py-4 border-b-2 border-transparent hover:border-blue-500 hover:text-white">O nás</a>
+							<a href="/#aplikace" class="flex gap-3 items-center py-4 border-b-2 border-transparent hover:border-blue-500 hover:text-white">Aplikace</a>
+							<a href="/#reference" class="flex gap-3 items-center py-4 border-b-2 border-transparent hover:border-blue-500 hover:text-white">Reference</a>
+							<a href="/#tarify" class="flex gap-3 items-center py-4 border-b-2 border-transparent hover:border-blue-500 hover:text-white">Tarify</a>
+							<a href="/#objednavka" class="flex gap-3 items-center py-4 border-b-2 border-transparent hover:border-blue-500 hover:text-white">Objednávka</a>
+							<a href="/#kontakt" class="flex gap-3 items-center py-4 border-b-2 border-transparent hover:border-blue-500 hover:text-white">Kontakt</a>
+						</nav>
+
+						<a href="#" class="flex items-center gap-3 text-sm ml-auto hover:underline">
+							<span class="icon-box text-[1.375rem]">{{ svg_sprite('facebook') }}</span>
+							<span class="font-medium">Sledujte nás na <b>Facebooku</b></span>
+						</a>
+					</div>
+				</div>
+			</header>
+
+			{% block content %}
+
+			{% endblock %}
+
+			<footer class="text-xs py-5 relative border-t border-[#292929]">
+				<div class="container flex items-center justify-between flex-col gap-4 md:flex-row">
+					<p>
+						© {{ '=now'|date('Y') }} <b>Obhajobaridice.cz</b> - Všechna práva vyhrazena.
+					</p>
+					<a href="https://www.matejskalnik.cz/" target="_blank"><img src="{{ theme.link }}/assets/img/ms.svg" alt="Matěj Skalník" loading="lazy" width="27" height="16" /></a>
+				</div>
+
+				<a href="#uvod"
+					class="absolute right-4 bottom-20 bg-white text-gray-900 w-20 h-20 rounded-full border border-gray-300 flex flex-col items-center justify-center sm:bottom-4 md:right-8 md:bottom-8">
+					<span class="icon-box text-[1.5rem]">{{ svg_sprite('angle-up') }}</span>
+					<b class="text-xs font-bold uppercase">Nahoru</b>
+				</a>
+			</footer>
+		</div>
+
+		{{ fn('wp_footer') }}
+	</body>
+</html>

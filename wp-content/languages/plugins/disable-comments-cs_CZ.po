@@ -1,0 +1,108 @@
+# Translation of Plugins - Disable Comments &#8211; Remove Comments &amp; Stop Spam [Multi-Site Support] - Stable (latest release) in Czech
+# This file is distributed under the same license as the Plugins - Disable Comments &#8211; Remove Comments &amp; Stop Spam [Multi-Site Support] - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-12-23 15:51:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: cs_CZ\n"
+"Project-Id-Version: Plugins - Disable Comments &#8211; Remove Comments &amp; Stop Spam [Multi-Site Support] - Stable (latest release)\n"
+
+#: disable-comments.php:756
+msgctxt "settings menu title"
+msgid "Disable Comments"
+msgstr "Disable Comments"
+
+#: views/partials/_delete.php:66
+msgid "Total Comments:"
+msgstr "Celkem komentářů:"
+
+#: disable-comments.php:1117 disable-comments.php:1121
+msgid "Internal error occured. Please try again later."
+msgstr "Nastala vnitřní chyba. Zkuste to prosím později."
+
+#: disable-comments.php:1115 disable-comments.php:1149
+#: disable-comments.php:1172
+msgid "All comments have been deleted"
+msgstr "Veškeré komentáře byly úspěšně odstraněny."
+
+#: views/partials/_delete.php:210
+msgid "No comments are available for deletion."
+msgstr "Žádné komentáře k odstranění."
+
+#: views/partials/_delete.php:43 views/partials/_disable.php:61
+msgid "Custom post types:"
+msgstr "Vlastní typy obsahu:"
+
+#: disable-comments.php:766 views/partials/_delete.php:72
+#: assets/js/disable-comments-settings-scripts.js:336
+msgid "Delete Comments"
+msgstr "Odstranit komentáře"
+
+#: disable-comments.php:747
+msgid "Tools"
+msgstr "Nástroje"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/disable-comments/"
+msgstr "https://cs.wordpress.org/plugins/disable-comments/"
+
+#: views/partials/_disable.php:167
+msgid "Save Changes"
+msgstr "Uložit změny"
+
+#: views/partials/_delete.php:42 views/partials/_disable.php:60
+msgid "Only the built-in post types appear above. If you want to disable comments on other custom post types on the entire network, you can supply a comma-separated list of post types below (use the slug that identifies the post type)."
+msgstr "Výše se zobrazí pouze výchozí typy obsahu. Pokud chcete zakázat komentáře u vlastních typů obsahu v celé síti, napište níže čárkami oddělený seznam typů obsahu (použijte název v URL, který identifikuje typ obsahu)."
+
+#: views/partials/_delete.php:27
+msgid "On Certain Post Types:"
+msgstr "Na určitých typech obsahu"
+
+#. Plugin Name of the plugin
+#: disable-comments.php:367
+msgid "Disable Comments"
+msgstr "Disable Comments"
+
+#: disable-comments.php:746 views/partials/_disable.php:3
+msgid "Settings"
+msgstr "Nastavení"
+
+#. translators: %s: disabled post types.
+#: disable-comments.php:622
+msgid ", "
+msgstr ", "
+
+#. translators: %s: disabled post types.
+#: disable-comments.php:622
+msgid "Note: The <em>Disable Comments</em> plugin is currently active, and comments are completely disabled on: %s. Many of the settings below will not be applicable for those post types."
+msgstr "Poznámka: Plugin <em>Disable Comments</em> je momentálně aktivní a komentáře jsou úplně vyplé u: %s. Většina nastavení zobrazeného níže nebude použita pro tyto typyobsahu."
+
+#: disable-comments.php:515 disable-comments.php:666 disable-comments.php:673
+msgid "Comments are closed."
+msgstr "Komentáře nejsou povoleny."
+
+#. translators: %s: WordPress version no.
+#: disable-comments.php:172
+msgid "Disable Comments requires WordPress version %s or greater."
+msgstr "Disable Comments vyžaduje WordPress verze %s nebo vyšší."
+
+#. Author of the plugin
+msgid "WPDeveloper"
+msgstr "WPDeveloper"
+
+#: views/partials/_delete.php:22 views/partials/_disable.php:40
+msgid "Everywhere:"
+msgstr "Všude:"
+
+#. translators: %s: URL to Disabled Comment settings page.
+#: disable-comments.php:657
+msgid "The <strong>Disable Comments</strong> plugin is active, but isn't configured to do anything yet. Visit the <a href=\"%s\">configuration page</a> to choose which post types to disable comments on."
+msgstr "Plugin <strong>Disable Comments</strong> je aktivni, ale zatím není nijak nastaven. Přejděte na <a href=\"%s\">nastavení pluginu</a> a vyberte si kde chcete komentáře zakázat."
+
+#. Author URI of the plugin
+msgid "https://wpdeveloper.com"
+msgstr "https://wpdeveloper.com"

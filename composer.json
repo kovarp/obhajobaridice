@@ -1,0 +1,30 @@
+{
+	"name": "kovarp/obhajobaridice",
+	"type": "project",
+	"authors": [
+		{
+			"name": "Pavel Kovář",
+			"email": "pavel@pavelkovar.cz",
+			"homepage": "https://www.pavelkovar.cz"
+		}
+	],
+	"config": {
+		"platform": {
+			"php": "8.1.0"
+		},
+		"process-timeout": 2000
+	},
+	"require": {
+		"php": ">=8.1",
+		"dg/mysql-dump": "^1.5",
+		"dg/ftp-deployment": "^3.3"
+	},
+	"scripts": {
+		"dump": "php .database/dump.php"
+	},
+	"autoload": {
+		"psr-4": {
+			"Theme\\": "wp-content/themes/theme/src/"
+		}
+	}
+}

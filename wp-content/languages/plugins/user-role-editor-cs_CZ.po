@@ -1,0 +1,868 @@
+# Translation of Plugins - User Role Editor - Stable (latest release) in Czech
+# This file is distributed under the same license as the Plugins - User Role Editor - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-12-02 10:37:22+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: cs_CZ\n"
+"Project-Id-Version: Plugins - User Role Editor - Stable (latest release)\n"
+
+#: includes/classes/grant-roles.php:447
+msgid "Add"
+msgstr "Přidat"
+
+#: includes/classes/grant-roles.php:454
+msgid "Revoke"
+msgstr "Zneplatnit"
+
+#: includes/classes/screen-help.php:25 includes/settings-template.php:86
+msgid "Confirm role update"
+msgstr "Potvrdit aktualizaci oprávnění"
+
+#: includes/classes/user-role-editor.php:761
+#: includes/classes/user-role-editor.php:807
+msgid "Confirm"
+msgstr "Potvrdit"
+
+#: includes/classes/user-role-editor.php:762
+#: includes/classes/user-role-editor.php:808
+msgid "Yes"
+msgstr "Ano"
+
+#: includes/classes/user-role-editor.php:763
+#: includes/classes/user-role-editor.php:809
+msgid "No"
+msgstr "Ne"
+
+#: includes/classes/role-additional-options.php:113
+msgid "Additional Options"
+msgstr "Další možnosti"
+
+#: includes/classes/role-additional-options.php:53
+msgid "Hide admin bar"
+msgstr "Skrýt navigační lištu při prohlížení webu"
+
+#: includes/settings-template.php:42
+msgid "Tools"
+msgstr "Nástroje"
+
+#: includes/classes/view.php:319
+msgid "Granted"
+msgstr "Uděleno"
+
+#: includes/classes/view.php:319
+msgid "Group"
+msgstr "Funkce"
+
+#: includes/classes/view.php:335
+msgid "Granted Only"
+msgstr "Pouze uděleno"
+
+#: includes/classes/view.php:319
+msgid "Total"
+msgstr "Celkem"
+
+#: includes/settings-template.php:101
+msgid "Show capabilities in"
+msgstr "Zobrazit oprávnění ve"
+
+#: includes/settings-template.php:107
+msgid "columns"
+msgstr "sloupcích"
+
+#: includes/classes/tools.php:20
+msgid "WARNING!"
+msgstr "VAROVÁNÍ! "
+
+#: includes/classes/user-role-editor.php:812
+msgid " Resetting will restore default user roles and capabilities from WordPress core."
+msgstr "Resetování nastaví výchozí uživatelské role a funkce z jádra WordPress."
+
+#: includes/classes/capabilities-groups-manager.php:194
+msgid "Deprecated"
+msgstr "Zastaralé"
+
+#: includes/classes/view.php:338
+msgid "Columns:"
+msgstr "Sloupce:"
+
+#: includes/classes/user-role-editor.php:297
+msgid "To:"
+msgstr "Do:"
+
+#: includes/classes/capabilities-groups-manager.php:108
+#: includes/classes/capabilities-groups-manager.php:135
+msgid "Core"
+msgstr "Jádro"
+
+#: includes/classes/capabilities-groups-manager.php:130
+msgid "All"
+msgstr "Vše"
+
+#: includes/classes/capabilities-groups-manager.php:145
+msgid "Themes"
+msgstr "Šablony"
+
+#: includes/classes/capabilities-groups-manager.php:150
+msgid "Posts"
+msgstr "Příspěvky"
+
+#: includes/classes/capabilities-groups-manager.php:155
+msgid "Pages"
+msgstr "Stránky"
+
+#: includes/classes/capabilities-groups-manager.php:160
+msgid "Plugins"
+msgstr "Pluginy"
+
+#: includes/classes/capabilities-groups-manager.php:165
+msgid "Users"
+msgstr "Uživatelé"
+
+#: includes/classes/capabilities-groups-manager.php:45
+msgid "Custom Post Types"
+msgstr "Vlastní typy příspěvku"
+
+#: includes/classes/capabilities-groups-manager.php:103
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/classes/user-other-roles.php:245
+msgid "Edit"
+msgstr "Upravit"
+
+#: includes/classes/role-view.php:64
+msgid "None"
+msgstr "Nic"
+
+#: includes/classes/user-role-editor.php:774
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: includes/classes/user-role-editor.php:512
+#: includes/classes/user-role-editor.php:525
+msgid "Settings"
+msgstr "Nastavení"
+
+#: includes/classes/editor.php:1569
+msgid "Import"
+msgstr "Importovat"
+
+#: includes/classes/user-role-editor.php:764
+msgid "Update"
+msgstr "Aktualizovat"
+
+#: includes/classes/editor.php:1619
+msgid "Export"
+msgstr "Exportovat"
+
+#: includes/classes/editor.php:234 includes/classes/editor.php:236
+msgid "Error: "
+msgstr "Chyba: "
+
+#: includes/classes/capabilities-groups-manager.php:140
+#: includes/classes/user-role-editor.php:561 includes/settings-template.php:20
+msgid "General"
+msgstr "Obecné"
+
+#: includes/classes/user-view.php:71
+msgid "Network Super Admin"
+msgstr "Super správce sítě"
+
+#: includes/classes/editor.php:1524
+msgid "Error: wrong request"
+msgstr "Chyba: Neplatný požadavek"
+
+#: includes/classes/role-view.php:196 includes/classes/role-view.php:207
+msgid "Role name (ID): "
+msgstr "Název role (ID):"
+
+#: includes/classes/role-view.php:200
+msgid "Make copy of: "
+msgstr "Vytvořte kopii z:"
+
+#: includes/classes/role-view.php:241
+msgid "Capability name (ID): "
+msgstr "Název možnosti (ID):"
+
+#: includes/settings-template.php:46
+msgid "About"
+msgstr "O pluginu"
+
+#. Author of the plugin
+msgid "Vladimir Garagulya"
+msgstr "Vladimir Garagulya"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.role-editor.com"
+msgstr "https://www.role-editor.com"
+
+#. Plugin Name of the plugin
+#: includes/classes/capabilities-groups-manager.php:84
+#: includes/classes/editor.php:1483 includes/classes/user-role-editor.php:592
+#: includes/classes/user-role-editor.php:593
+#: includes/classes/user-role-editor.php:605
+#: includes/classes/user-role-editor.php:606
+#: includes/classes/user-role-editor.php:621
+#: includes/classes/user-role-editor.php:622
+msgid "User Role Editor"
+msgstr "Editor uživatelských rolí"
+
+#: includes/classes/editor.php:237
+msgid "does not exist"
+msgstr "neexistuje"
+
+#: includes/classes/editor.php:902
+msgid "Role is updated successfully"
+msgstr "Role je úspěšně aktualizována"
+
+#: includes/classes/editor.php:904
+msgid "Roles are updated for all network"
+msgstr "Role jsou aktualizovány pro všechny sítě"
+
+#: includes/classes/editor.php:911
+msgid "User capabilities are updated successfully"
+msgstr "Uživatelské možnosti jsou úspěšně aktualizovány"
+
+#: includes/classes/editor.php:913
+msgid "Error occurred during user update"
+msgstr "Došlo k chybě během aktualizace uživatele"
+
+#: includes/classes/editor.php:1297
+msgid "Role %s is deleted successfully"
+msgstr "Role %s je úspěšně odstraněna."
+
+#: includes/classes/editor.php:1343
+msgid "Error encountered during default role change operation"
+msgstr "Chyba během operace změny výchozí role"
+
+#: includes/classes/editor.php:1346
+msgid "Can not set Administrator role as a default one"
+msgstr "Role správce nelze nastavit jako výchozí"
+
+#: includes/classes/editor.php:1553
+msgid "Editor"
+msgstr "Editor"
+
+#: includes/classes/editor.php:1577
+msgid "Level 10"
+msgstr "Úroveň 10"
+
+#: includes/classes/editor.php:1574
+msgid "Publish posts"
+msgstr "Publikování příspěvků"
+
+#: includes/classes/editor.php:1575
+msgid "Edit pages"
+msgstr "Upravit stránky"
+
+#: includes/classes/editor.php:1576
+msgid "Read"
+msgstr "Čtení"
+
+#: includes/classes/editor.php:1579
+msgid "Level 8"
+msgstr "Úroveň 8"
+
+#: includes/classes/editor.php:1580
+msgid "Level 7"
+msgstr "Úroveň 7"
+
+#: includes/classes/editor.php:1611
+msgid "Install themes"
+msgstr "Instalovat témata"
+
+#: includes/classes/editor.php:1612
+msgid "Update core"
+msgstr "Aktualizace jádra"
+
+#: includes/classes/editor.php:1613
+msgid "List users"
+msgstr "Seznam uživatelů"
+
+#: includes/classes/editor.php:1614
+msgid "Remove users"
+msgstr "Odstranit uživatele"
+
+#: includes/classes/editor.php:1615
+msgid "Add users"
+msgstr "Přidat uživatele"
+
+#: includes/classes/editor.php:1616
+msgid "Promote users"
+msgstr "Pomoc uživatelům"
+
+#: includes/classes/editor.php:1617
+msgid "Edit theme options"
+msgstr "Upravit možnosti motivu"
+
+#: includes/classes/editor.php:1618
+msgid "Delete themes"
+msgstr "Odstranění motivů"
+
+#: includes/classes/user-role-editor.php:766
+msgid "Add New Role"
+msgstr "Přidat novou roli"
+
+#: includes/classes/user-role-editor.php:767
+#: includes/classes/user-role-editor.php:772
+msgid "Rename Role"
+msgstr "Přejmenovat roli"
+
+#: includes/classes/capabilities-groups-manager.php:187
+#: includes/classes/user-role-editor.php:579 includes/settings-template.php:36
+msgid "Multisite"
+msgstr "Multisite"
+
+#: includes/classes/user-role-editor.php:573 includes/settings-template.php:31
+msgid "Default Roles"
+msgstr "Výchozí role"
+
+#: includes/classes/editor.php:1578
+msgid "Level 9"
+msgstr "Úroveň 9"
+
+#: includes/classes/editor.php:1581
+msgid "Level 6"
+msgstr "Úroveň 6"
+
+#: includes/classes/editor.php:1582
+msgid "Level 5"
+msgstr "Úroveň 5"
+
+#: includes/classes/editor.php:1583
+msgid "Level 4"
+msgstr "Úroveň 4"
+
+#: includes/classes/editor.php:1584
+msgid "Level 3"
+msgstr "Úroveň 3"
+
+#: includes/classes/editor.php:1585
+msgid "Level 2"
+msgstr "Úroveň 2"
+
+#: includes/classes/editor.php:1586
+msgid "Level 1"
+msgstr "Úroveň 1"
+
+#: includes/classes/editor.php:1587
+msgid "Level 0"
+msgstr "Úroveň 0"
+
+#: includes/classes/editor.php:1588
+msgid "Edit others pages"
+msgstr "Upravit ostatní stránky"
+
+#: includes/classes/editor.php:1558
+msgid "Switch themes"
+msgstr "Přepínání motivů"
+
+#: includes/classes/editor.php:1559
+msgid "Edit themes"
+msgstr "Úpravy témat"
+
+#: includes/classes/editor.php:1560
+msgid "Activate plugins"
+msgstr "Aktivace pluginů"
+
+#: includes/classes/editor.php:1561
+msgid "Edit plugins"
+msgstr "Úpravy pluginů"
+
+#: includes/classes/editor.php:1562
+msgid "Edit users"
+msgstr "Úpravy uživatelů"
+
+#: includes/classes/editor.php:1563
+msgid "Edit files"
+msgstr "Úpravy souborů"
+
+#: includes/classes/editor.php:1564
+msgid "Manage options"
+msgstr "Spravovat možnosti"
+
+#: includes/classes/editor.php:992
+msgid "Error: Role ID must contain latin characters, digits, hyphens or underscore only!"
+msgstr "Chyba: Role ID musí obsahovat pouze latinské znaky, číslice, pomlčky nebo podtržení!"
+
+#: includes/classes/editor.php:998
+msgid "Error: WordPress does not support numeric Role name (ID). Add latin characters to it."
+msgstr "Chyba: WordPress nepodporuje pouze číselný název role (ID). Přidejte alespoň latinku."
+
+#: includes/classes/editor.php:1032
+msgid "Role %s exists already"
+msgstr "Role %s již existuje"
+
+#: includes/classes/editor.php:1051
+msgid "Error is encountered during new role create operation"
+msgstr "Během vytváření nové role byla zjištěna chyba operace"
+
+#: includes/classes/editor.php:1058
+msgid "Role %s is created successfully"
+msgstr "Role %s je úspěšně vytvořena"
+
+#: includes/classes/editor.php:983
+msgid "Error: Role ID is empty!"
+msgstr "Chyba: Role ID je prázdná!"
+
+#: includes/classes/editor.php:1143
+msgid "Error: Empty role display name is not allowed."
+msgstr "Chyba: Prázdná role pro zobrazované jméno není povolena."
+
+#: includes/classes/editor.php:1150
+msgid "Role %s does not exists"
+msgstr "Role %s neexistuje"
+
+#: includes/classes/editor.php:1163
+msgid "Role %s is renamed to %s successfully"
+msgstr "Role %s úspěšně přejmenována na %s"
+
+#: includes/classes/editor.php:1295
+msgid "Unused roles are deleted successfully"
+msgstr "Nepoužité role byly úspěšně odstraněny."
+
+#: includes/classes/editor.php:1589
+msgid "Edit published pages"
+msgstr "Upravit publikované stránky"
+
+#: includes/classes/editor.php:1594
+msgid "Delete posts"
+msgstr "Odstranit příspěvky"
+
+#: includes/classes/editor.php:1595
+msgid "Delete others posts"
+msgstr "Odstranit ostatní příspěvky"
+
+#: includes/classes/editor.php:1565
+msgid "Moderate comments"
+msgstr "Moderovat komentáře"
+
+#: includes/classes/editor.php:1566
+msgid "Manage categories"
+msgstr "Správa kategorií"
+
+#: includes/classes/editor.php:1567
+msgid "Manage links"
+msgstr "Správa odkazů"
+
+#: includes/classes/editor.php:1568
+msgid "Upload files"
+msgstr "Nahrání souborů"
+
+#: includes/classes/editor.php:1570
+msgid "Unfiltered html"
+msgstr "Nefiltrovaný kód html"
+
+#: includes/classes/editor.php:1571
+msgid "Edit posts"
+msgstr "Upravit příspěvky"
+
+#: includes/classes/editor.php:1572
+msgid "Edit others posts"
+msgstr "Upravit ostatní příspěvky"
+
+#: includes/classes/editor.php:1573
+msgid "Edit published posts"
+msgstr "Upravit publikované příspěvky"
+
+#: includes/classes/capability.php:33
+msgid "Error: Capability name must contain latin characters and digits only!"
+msgstr "Chyba: Možnost názvu musí obsahovat pouze písmena a číslice!"
+
+#: includes/classes/capability.php:112
+msgid "Capability %s exists already"
+msgstr "Funkce %s již existuje"
+
+#: includes/classes/capability.php:222
+msgid "Capability %s was removed successfully"
+msgstr "Funkce %s byla úspěšně odstraněna"
+
+#: includes/classes/lib.php:383
+msgid "Version:"
+msgstr "Verze:"
+
+#: includes/classes/lib.php:384
+msgid "Author's website"
+msgstr "Webové stránky autora"
+
+#: includes/classes/user-other-roles.php:124
+#: includes/classes/user-other-roles.php:259
+msgid "Other Roles"
+msgstr "Ostatní role"
+
+#: includes/classes/user-other-roles.php:125
+msgid "Select additional roles for this user"
+msgstr "Vyberte další role pro tohoto uživatele"
+
+#: includes/classes/user-other-roles.php:238
+#: includes/classes/user-role-editor.php:404
+msgid "Capabilities"
+msgstr "Možnosti"
+
+#: includes/classes/user-other-roles.php:309
+msgid "Additional Capabilities"
+msgstr "Další možnosti"
+
+#: includes/classes/user-role-editor.php:296
+msgid "Change role for users without role"
+msgstr "Změna role pro uživatele bez role"
+
+#: includes/classes/user-role-editor.php:298
+msgid "No rights"
+msgstr "Žádná práva"
+
+#: includes/classes/user-role-editor.php:299
+msgid "Provide new role"
+msgstr "Poskytnout nové role"
+
+#: includes/classes/user-role-editor.php:376
+#: includes/classes/user-role-editor.php:378
+msgid "You do not have permission to edit this user."
+msgstr "Nemáte oprávnění k úpravám tohoto uživatele."
+
+#: includes/classes/user-role-editor.php:567 includes/settings-template.php:26
+msgid "Additional Modules"
+msgstr "Další moduly"
+
+#: includes/classes/settings.php:120
+msgid "Default Roles are updated"
+msgstr "Výchozí role jsou aktualizovány"
+
+#: includes/classes/editor.php:1596
+msgid "Delete published posts"
+msgstr "Odstranit publikované příspěvky"
+
+#: includes/classes/editor.php:1597
+msgid "Delete private posts"
+msgstr "Odstranit soukromé příspěvky"
+
+#: includes/classes/editor.php:1598
+msgid "Edit private posts"
+msgstr "Upravit soukromé příspěvky"
+
+#: includes/classes/editor.php:1599
+msgid "Read private posts"
+msgstr "Číst soukromé příspěvky"
+
+#: includes/classes/editor.php:1600
+msgid "Delete private pages"
+msgstr "Odstranit soukromé stránky"
+
+#: includes/classes/editor.php:1601
+msgid "Edit private pages"
+msgstr "Upravit soukromé stránky"
+
+#: includes/classes/editor.php:1602
+msgid "Read private pages"
+msgstr "Číst soukromé stránky"
+
+#: includes/classes/editor.php:1603
+msgid "Delete users"
+msgstr "Odstranit uživatele"
+
+#: includes/classes/editor.php:1604
+msgid "Create users"
+msgstr "Vytvořit uživatele"
+
+#: includes/classes/editor.php:1605
+msgid "Unfiltered upload"
+msgstr "Nefiltrované nahrávání"
+
+#: includes/classes/editor.php:1606
+msgid "Edit dashboard"
+msgstr "Upravit nástěnku"
+
+#: includes/classes/editor.php:1607
+msgid "Update plugins"
+msgstr "Aktualizovat pluginy"
+
+#: includes/classes/editor.php:1608
+msgid "Delete plugins"
+msgstr "Odstranit pluginy"
+
+#: includes/classes/editor.php:1609
+msgid "Install plugins"
+msgstr "Instalovat pluginy"
+
+#: includes/classes/editor.php:1610
+msgid "Update themes"
+msgstr "Aktualizovat témata"
+
+#: includes/classes/user-role-editor.php:765
+msgid "Please confirm permissions update"
+msgstr "Prosím, potvrďte aktualizace oprávnění"
+
+#: includes/classes/user-role-editor.php:768
+msgid " Role name (ID) can not be empty!"
+msgstr "Název role (ID) nemůže být prázdný!"
+
+#: includes/classes/lib.php:385
+msgid "Plugin webpage"
+msgstr "Webová stránka pluginu"
+
+#: includes/classes/lib.php:386
+msgid "Plugin download"
+msgstr "Stáhnout plugin"
+
+#: includes/classes/lib.php:387 includes/classes/user-role-editor.php:538
+msgid "Changelog"
+msgstr "Novinky ve verzi"
+
+#: includes/classes/role-view.php:96
+msgid "Delete All Unused Roles"
+msgstr "Odstranit všechny nepoužité role"
+
+#: includes/classes/grant-roles.php:384 includes/classes/user-view.php:96
+msgid "&mdash; No role for this site &mdash;"
+msgstr "&mdash; Žádné role pro tento web &mdash;"
+
+#: includes/classes/user-other-roles.php:222
+msgid "Denied: %s"
+msgstr "Odepřen: %s"
+
+#: includes/classes/screen-help.php:12 includes/classes/screen-help.php:43
+#: includes/classes/screen-help.php:62 includes/classes/screen-help.php:81
+msgid "User Role Editor Options page help"
+msgstr "Možnosti pluginu User Role Editor - Nápověda"
+
+#: includes/classes/screen-help.php:15 includes/settings-template.php:61
+msgid "Show Administrator role at User Role Editor"
+msgstr "Zobrazit roli správce v editoru rolí "
+
+#: includes/classes/role-view.php:363 includes/classes/screen-help.php:21
+#: includes/classes/user-view.php:164 includes/settings-template.php:78
+msgid "Show deprecated capabilities"
+msgstr "Zobrazit již nepoužívané, zastaralé funkce"
+
+#: includes/classes/screen-help.php:27 includes/settings-template.php:94
+msgid "Edit user capabilities"
+msgstr "Upravit uživatelské možnosti"
+
+#: includes/classes/screen-help.php:47 includes/settings-template.php:141
+msgid "Count users without role"
+msgstr "Počet uživatelů bez přidělené role"
+
+#: includes/classes/screen-help.php:65
+msgid "Other default roles for new registered user"
+msgstr "Jiné výchozí role pro nově registrované uživatele"
+
+#: includes/classes/screen-help.php:84
+msgid "Allow non super-administrators to create, edit and delete users"
+msgstr "Povolit bez super-admininstratora vytvářet, upravovat a odstraňovat uživatele"
+
+#: includes/classes/user-role-editor.php:771
+msgid "Add Role"
+msgstr "Přidat roli"
+
+#: includes/classes/user-role-editor.php:773
+msgid "Delete Role"
+msgstr "Odstranit roli"
+
+#: includes/classes/user-role-editor.php:775
+msgid "Add Capability"
+msgstr "Přidat funkci"
+
+#: includes/classes/user-role-editor.php:776
+#: includes/classes/user-role-editor.php:779
+msgid "Delete Capability"
+msgstr "Odstranění možností"
+
+#: includes/classes/tools.php:40 includes/classes/user-role-editor.php:810
+msgid "Reset"
+msgstr "Obnovit"
+
+#: includes/classes/user-role-editor.php:816
+msgid "Continue?"
+msgstr "Chcete pokračovat?"
+
+#: includes/classes/user-role-editor.php:777
+msgid "Default Role"
+msgstr "Výchozí role"
+
+#: includes/classes/user-role-editor.php:778
+msgid "Set New Default Role"
+msgstr "Nastavte nové výchozí role"
+
+#: includes/classes/user-role-editor.php:780
+msgid "Warning! Be careful - removing critical capability could crash some plugin or other custom code"
+msgstr "Varování! Buďte opatrní - odstraněním kritické možnosti může dojít k pádu některého z pluginů nebo jiného vlastního kódu"
+
+#: includes/classes/user-role-editor.php:781
+msgid " Capability name (ID) can not be empty!"
+msgstr "Název možnosti (ID) nemůže být prázdný!"
+
+#: includes/settings-template.php:121 includes/settings-template.php:156
+#: includes/settings-template.php:188 includes/settings-template.php:220
+msgid "Save"
+msgstr "Uložit"
+
+#: includes/settings-template.php:168
+msgid "Primary default role: "
+msgstr "Primární výchozí role:"
+
+#: includes/settings-template.php:175
+msgid "Other default roles for new registered user: "
+msgstr "Jiné výchozí role pro nově registrované uživatele:"
+
+#: includes/settings-template.php:181
+msgid "Note for multisite environment: take into account that other default roles should exist at the site, in order to be assigned to the new registered users."
+msgstr "Poznámka: pro multi-site: berte v úvahu, že jiné výchozí role by měly existovat i na místě, kde předpokládáte registraci uživatelů."
+
+#: includes/settings-template.php:207
+msgid "Allow non super administrators to create, edit, and delete users"
+msgstr "Povolit bez super-administrators vytvářet, upravovat a odstraňovat uživatele"
+
+#: includes/classes/role-view.php:397
+msgid "Select Role and change its capabilities:"
+msgstr "Výběr role a změna možností uživatele:"
+
+#: includes/classes/role-view.php:353 includes/classes/user-view.php:154
+msgid "Show capabilities in human readable form"
+msgstr "Zobrazit možnosti v čitelné podobě"
+
+#: includes/classes/role-view.php:367
+msgid "If checked, then apply action to ALL sites of this Network"
+msgstr "Je-li políčko zaškrtnuto, pak platí akce na všechny stránky této sítě."
+
+#: includes/classes/role-view.php:380 includes/classes/tools.php:31
+msgid "Apply to All Sites"
+msgstr "Použito na všechny weby"
+
+#: includes/classes/view.php:332
+msgid "Quick filter:"
+msgstr "Rychlý filtr:"
+
+#: includes/classes/user-view.php:137
+msgid "Change capabilities for user"
+msgstr "Změnit možnosti pro uživatele"
+
+#: includes/classes/user-view.php:175
+msgid "Primary Role:"
+msgstr "Hlavní role:"
+
+#: includes/classes/user-view.php:181
+msgid "bbPress Role:"
+msgstr "bbPress role:"
+
+#: includes/classes/user-view.php:190
+msgid "Other Roles:"
+msgstr "Další role:"
+
+#: includes/classes/user-role-editor.php:782
+msgid " Capability name (ID) must contain latin characters, digits, hyphens or underscore only!"
+msgstr "Možnosti (ID) musí obsahovat pouze znaky latinky, číslice, pomlčky nebo podtržení!"
+
+#: includes/classes/user-role-editor.php:770
+msgid " WordPress does not support numeric Role name (ID). Add latin characters to it."
+msgstr "WordPress nepodporuje číselný název uživatelské úrovně (ID). Přidejte znaky latinky."
+
+#: includes/classes/user-role-editor.php:769
+msgid " Role name (ID) must contain latin characters, digits, hyphens or underscore only!"
+msgstr " Název uživatelské úrovně (ID) musí obsahovat pouze znaky latinky, číslice, pomlčky nebo podtržení!"
+
+#. Description of the plugin
+msgid "Change/add/delete WordPress user roles and capabilities."
+msgstr "Měňte/přidejte/odstraňte uživatelské úrovně WordPressu a jejich nastavení."
+
+#: includes/classes/editor.php:1341
+msgid "Default role for new users is set to %s successfully"
+msgstr "Výchozí úroveň pro nové uživatele je nastavena na hodnotu %s"
+
+#: includes/classes/screen-help.php:18 includes/settings-template.php:70
+msgid "Show capabilities in the human readable form"
+msgstr "Zobrazit možnosti ve srozumitelné podobě"
+
+#: includes/classes/editor.php:1348
+msgid "This role does not exist - "
+msgstr "Tato úroveň neexistuje -"
+
+#: includes/classes/editor.php:1393
+msgid "User Roles are restored to WordPress default values. "
+msgstr "Uživatelské úrovňě jsou obnoveny do výchozího nastavení WordPressu."
+
+#: includes/classes/capabilities-groups-manager.php:201
+msgid "Custom capabilities"
+msgstr "Vlastní schopnosti:"
+
+#: includes/settings-template.php:16
+msgid "User Role Editor - Options"
+msgstr "User Role Editor - nastavení"
+
+#: includes/classes/user-role-editor.php:814
+msgid "For more information on how to undo undesired changes and restore plugin capabilities go to"
+msgstr "Pro další informace o zpětném vrácení změn a obnově pluginu možností přejděte do"
+
+#: includes/classes/user-role-editor.php:638
+msgid "You do not have sufficient permissions to manage options for User Role Editor."
+msgstr "Nemáte dostatečná oprávnění ke správě možností User Role Editoru."
+
+#: includes/classes/settings.php:70 includes/classes/settings.php:90
+#: includes/classes/settings.php:140
+msgid "User Role Editor options are updated"
+msgstr "Možnosti User Role Editor jsou aktualizovány"
+
+#: includes/classes/capability.php:110
+msgid "Capability %s was added successfully"
+msgstr "Funkce %s byla úspěšně přidána"
+
+#: includes/classes/editor.php:1593
+msgid "Delete published pages"
+msgstr "Odstranit publikované stránky"
+
+#: includes/classes/editor.php:1592
+msgid "Delete others pages"
+msgstr "Odstranit ostatní stránky"
+
+#: includes/classes/editor.php:1591
+msgid "Delete pages"
+msgstr "Odstranit stránky"
+
+#: includes/classes/editor.php:1590
+msgid "Publish pages"
+msgstr "Publikovat stránky"
+
+#: includes/classes/capability.php:84 includes/classes/capability.php:204
+#: includes/classes/editor.php:950 includes/classes/editor.php:1019
+#: includes/classes/editor.php:1070 includes/classes/editor.php:1131
+#: includes/classes/editor.php:1277 includes/classes/editor.php:1319
+#: includes/classes/user-role-editor.php:671
+msgid "Insufficient permissions to work with User Role Editor"
+msgstr "Nemáte dostatečná oprávnění pro práci s User Role Editor"
+
+#: includes/classes/editor.php:236
+msgid "Role"
+msgstr "Úroveň"
+
+#: includes/classes/role-view.php:216
+msgid "Select Role:"
+msgstr "Vyberte roli:"
+
+#: includes/classes/role-view.php:198 includes/classes/role-view.php:209
+msgid "Display Role Name: "
+msgstr "Zobrazované jméno role:"
+
+#: includes/classes/editor.php:907
+msgid "Error occurred during role(s) update"
+msgstr "Došlo k chybě při aktualizaci uživatelské úrovně"
+
+#: includes/classes/lib.php:388
+msgid "FAQ"
+msgstr "Nejčastější dotazy"
+
+#: includes/classes/editor.php:1556
+msgid "Subscriber"
+msgstr "Návštěvník"
+
+#: includes/classes/editor.php:1555
+msgid "Contributor"
+msgstr "Spolupracovník"
+
+#: includes/classes/editor.php:1554
+msgid "Author"
+msgstr "Redaktor"

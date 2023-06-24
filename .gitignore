@@ -1,0 +1,20 @@
+# IDE
+/.idea
+
+### Global
+!.gitkeep
+
+### Development
+/deployment.*.*
+!/deployment.example.php
+
+# Packages
+node_modules
+/vendor/
+
+### Wordpress
+/wp-content/cache/
+/wp-content/wflogs/
+
+### Theme
+/wp-content/themes/theme/assets/dist/

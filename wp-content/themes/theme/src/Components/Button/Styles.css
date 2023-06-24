@@ -1,0 +1,41 @@
+.btn {
+	@apply shadow-primary rounded-full bg-red-500;
+
+	display: inline-flex;
+	justify-content: center;
+	color: #fff;
+	font-weight: 500;
+	font-size: 1.125rem;
+	line-height: 1.2225;
+	text-transform: uppercase;
+	padding: 1rem 2.75rem;
+	text-align: center;
+}
+
+.btn:hover {
+	@apply bg-red-600;
+}
+
+.btn.btn-sm {
+	font-size: 1rem;
+	padding: 0.75rem 1.875rem;
+}
+
+.link {
+	@apply inline-flex items-center justify-between py-7 px-8 w-[15.625rem];
+	@apply text-xl font-semibold;
+	@apply bg-blue-500 hover:bg-blue-700;
+}
+
+.link .icon-box {
+	font-size: 2.25rem;
+	opacity: 0.5;
+}
+
+.link-pink {
+	@apply bg-pink-500 hover:bg-pink-700;
+}
+
+.link-wide {
+	@apply w-[17.5rem] py-5;
+}
